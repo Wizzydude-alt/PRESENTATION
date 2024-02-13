@@ -85,6 +85,7 @@ a{
 .Register{
     font-size: xx-small;
     margin-top: 15px;
+    width: 80%;
 }
 .Buttons{
     font-size: small;
@@ -377,7 +378,7 @@ li{
     list-style: none;
 }
 .first-photo{
-    background-image: url(1st\ photo.jpg);
+    background-image: url(./IMAGES/1st\ photo.jpg);
     background-size: contain;
     height: 200px;
     width: 100%;
@@ -422,7 +423,7 @@ li{
     height: 260px;
 }
 .second-photo{
-    background-image: url(2nd\ photo.jpg);
+    background-image: url(./IMAGES/2nd\ photo.jpg);
     background-size: contain;
     height: 200px;
     width: 100%;
@@ -436,7 +437,7 @@ li{
     margin-left: 50px;
 }
 .third-photo{
-    background-image: url(3rd\ photo.jpg);
+    background-image: url(./IMAGES/3rd\ photo.jpg);
     background-size: contain;
     height: 200px;
     width: 100%;
@@ -455,7 +456,7 @@ li{
     padding-top: 50px;
 }
 .fourth-photo{
-    background-image: url(4th\ photo.jpg);
+    background-image: url(IMAGES/4th\ photo.jpg);
     background-size: contain;
     height: 200px;
     background-repeat: no-repeat;
@@ -539,6 +540,9 @@ p{
         box-shadow:  2px 2px 2px 2px rgb(193, 192, 192);
     }
     .top-left-section{
+        width: 100%;
+    }
+    .Register{
         width: 100%;
     }
     .Course{
