@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+header{
+    padding: 5px 10%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgb(193, 192, 192);
+    width: 100%;
+}
+.header-logo-section{
+    gap: 5px;
+    align-items: center;
+}
+
+.header-logo-section h6{
+    color: rgba(84, 91, 232, 1);
+}
+.logo{
+    width: 30px;
+
+}
+
+.nav-items{
+    gap: 20px;
+}
+.nav-bar{
+    box-shadow:2px 2px 2px 2px rgb(193, 192, 192) ;
+    background-color: white;
+}
+
+.nav-items a{
+    font-size: 0.9rem;
+}
+.buttons{
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.down-section{
+    grid-template-columns: repeat(3,1fr);
+    display: flex;
+    margin-top: 40px;
+    margin-left: 20%;
+}
+.people{
+    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    position: relative;
+    right: 80px;
+    padding-top: 30px;
+}
+.color{
+    position: relative;
+    left: 40px;
+    color: gold;
+    
+}
+.colors{
+    position: relative;
+    left: 80px;
+    color: gold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.Course{
+    font-size: 60px;
+    line-height: 60px;
+    column-gap: 200px;
+}
+.Lets{
+    font-size: small;
+    color: blue;
+}
+.Register{
+    font-size: xx-small;
+    margin-top: 15px;
+}
+.Buttons{
+    font-size: small;
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+}
+h5{
+    margin-left: 33%;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.Teacher{
+    background-color: rgb(64, 64, 241);
+    margin-left: 90px;
+    height: 180px;
+    width: 200px;
+    padding-top: 70px;
+    font-size: xx-small;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.Certificate{
+    background-color: rgb(64, 64, 241);
+    margin-left: 40px;
+    height: 180px;
+    width: 200px;
+    padding-top: 70px;
+    font-size: xx-small;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.Learning{
+    background-color: rgb(64, 64, 241);
+    margin-left: 40px;
+    height: 180px;
+    width: 200px;
+    padding-top: 70px;
+    font-size: xx-small;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+}
+h4{
+    color: rgb(64, 64, 241);
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+}
+.in{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: rgb(64, 64, 241);
+    border:1px solid rgb(64, 64, 241);
+    background-color: white;
+    font-size: 12px;
+    background: none;
+}
+.stink{
+    width:100px;
+    height: 30px;
+    border-radius:5px;
+    background-color: rgb(64, 64, 241);
+    color: white;
+    border: none;
+    font-size: 12px;
+}
+.top-section{
+    background-color:  rgba(245, 245, 245, 1);
+    display: flex;
+    padding: 5% 10%;
+}
+.top-left-section{
+    width: 50%;
+    margin-top: 30px;
+}
+.top-right-section{
+    width: 50%;
+    text-align: right;
+}
+.Right{
+    color: rgb(64, 64, 241);
+}
+.Play-Video{
+    margin-left: 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+}
+.Proffesional{
+    font-size: small;
+    position: relative;
+    bottom: 30px;
+}
+.Cert{
+    font-size: small;
+}
+.Interesting{
+    font-size: small;
+}
+.middle-right{
+    color: white;
+    margin: auto;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+.middle-section{
+    background-color: rgb(64, 64, 241);
+    margin-top: 50px;
+    display: flex;
+    padding:10% 10%;
+}
+.IMAGES{
+    width: 500px;
+}
+.middle-left{
+    margin:  50px 20px auto;
+}
+
+.Taking{
+    font-size: x-large;
+    color: white;
+}
+.Lorem{
+    font-size: x-small;
+    padding-top: 30px;
+}
+.Victor{
+    font-size: xx-small;
+    padding-top:25px;
+    padding-left: 5px;
+}
+.Wisdom{
+    font-size: xx-small;
+    padding-top:25px;
+    margin-left: 30px;
+}
+.Juliet{
+    font-size: xx-small;
+    padding-top:25px;
+    padding-left: 10px;
+}
+.bottom{
+    padding-top: 50px;
+    height: 500px;
+    padding-left: 155px;
+}
+.bottom-right{
+    margin-left: 650px;
+    position: relative;
+    bottom: 20px;
+}
+.available{
+    line-height: 35px;
+}
+.amet{
+    font-size: xx-small;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+.testimonial{
+    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    padding-left: 100px;
+}
+h3{
+    margin-left: 600px;
+    font-size: x-large;
+}
+.h{
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 5px;
+}
+.client{
+    font-size: 10px;
+}
+.Tom{
+    line-height: 0;
+    padding-top: 10px;
+}
+.Frisk{
+    background-color: white;
+    height: 200px;
+    width: 500px;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(193, 192, 192);
+}
+.sem{
+    font-size: xx-small;
+}
+.xyz{
+    padding-left: 60px;
+}
+.Frink{
+    background-color: white;
+    margin-top:30px ;
+    height: 200px;
+    width: 500px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px 5px rgb(193, 192, 192);
+}
+.lolli{
+    position: relative;
+    top: -40px;
+}
+.top-right-section{
+    margin-left: 130px;
+    background-color: rgba(245, 245, 245, 1);
+}
+.three{
+    position: relative;
+    bottom: 20px;
+}
+.bottom-top{
+    display: flex;
+    grid-template-columns: 3, 1fr;
+    gap: 50px;
+
+}
+.css{
+    font-size: x-small;
+    margin-left: 10px;
+}
+.gold{
+    font-size: xx-small;
+    margin-left: 40px;
+    color: rgb(64, 64, 241);
+}
+.tree{
+    font-size: xx-small;
+    margin-left: 10px;
+}
+.teachers{
+    font-size: xx-small;
+    margin-left: 20px;
+}
+.first-writeup{
+    line-height: 25px;
+}
+.trust{
+    display: flex;
+}
+.client{
+    margin-left: 30px;
+}
+.shout{
+    display: flex;
+}
+.Vector{
+    position: relative;
+    top: 31px;
+    right: 67px;
+}
+.last-section{
+    background-color:  rgba(57, 62, 70, 1);
+    color: white;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 130px;
+    padding-bottom: 90px;
+    
+}
+.heroine{
+    font-size: xx-small;
+    padding-left: 5px;
+}
+.coding{
+    display: flex;
+}
+.logo-section{
+    display: flex;
+    height: 30px;
+    gap: 10px;
+}
+.last-right{
+    display: flex;
+    padding-left: 250px;
+    font-size: xx-small;
+    line-height: 30px;
+    gap: 40px;
+
+}
+li{
+    list-style: none;
+}
+.first-photo{
+    background-image: url(1st\ photo.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+}.best{
+    color: white;
+    background-color: rgb(64, 64, 241);
+    width: 100px;
+    font-size: x-small;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    position: relative;
+    top: 20px;
+}
+.USB{
+    color: white;
+    font-size: x-small;
+    position: relative;
+    top: 125px;
+    left: 180px;
+}
+.bones{
+    font-size: x-small;
+    padding-left: 10px;
+}.yello{
+    font-size: xx-small;
+    margin-left: 80px;
+    color: rgb(64, 64, 241);
+    padding-right: 10px;
+}
+.pretty{
+    font-size: xx-small;
+    padding-left: 10px;
+}
+.sleep{
+    margin-left: 5px;
+    font-size: xx-small;
+}
+.first-photo-section{
+    box-shadow: 2px 2px 2px 2px rgb(193, 192, 192);
+    height: 260px;
+}
+.second-photo{
+    background-image: url(2nd\ photo.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.second-photo-section{
+    box-shadow: 2px 2px 2px 2px rgb(193, 192, 192);
+    height: 260px;
+}
+.what{
+    margin-left: 50px;
+}
+.third-photo{
+    background-image: url(3rd\ photo.jpg);
+    background-size: contain;
+    height: 200px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.third-section{
+    box-shadow: 2px 2px 2px 2px rgb(193, 192, 192);
+    height: 260px;
+    width: 260px;
+    
+}
+.bottom-down{
+    display: flex;
+    grid-template-columns: 2, 1fr;
+    gap: 50px;
+    padding-top: 50px;
+}
+.fourth-photo{
+    background-image: url(4th\ photo.jpg);
+    background-size: contain;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.fourth-section{
+    box-shadow: 2px 2px 2px 2px rgb(193, 192, 192);
+    height: 260px;
+}
+.take{
+    font-size: x-small;
+    padding-left: 10px;
+    margin-top: 160px;
+    width: 40%;
+}
+.yell{
+    font-size: xx-small;
+    margin-left: 190px;
+    color: rgb(64, 64, 241);
+    position: relative;
+    bottom: 15px;
+    padding-right: 10px;
+}
+.prett{
+    font-size: xx-small;
+    padding-left: 10px;
+    position: relative;
+    bottom: 30px;
+}
+.slep{
+    margin-left: 5px;
+    font-size: xx-small;
+    position: relative;
+    left: 70px;
+    bottom: 45px;
+}
+.bone{
+    position: relative;
+    top: 10px;
+    font-size: x-small;
+    left: 10px;
+}
+.yel{
+    font-size: xx-small;
+    position: relative;
+    left: 190px;
+    bottom: 5px;
+    color: rgba(84, 91, 232, 1);
+}
+.prety{
+    font-size: xx-small;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+}
+.slee{
+    font-size: xx-small;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+p{
+    font-size: x-small;
+    color: rgb(64, 64, 241);
+} 
+@media screen and (max-width:600px) {
+    .nav-items{
+        display: none;
+    }
+    .main-content{
+        border-color: 10px solid black;
+    }
+    .buttons{
+        width: 120px;
+        height: 20px;
+        padding: 0px;
+    }
+    .top-section{
+        flex-direction: column-reverse;
+    }
+    .nav-bar{
+        box-shadow:  2px 2px 2px 2px rgb(193, 192, 192);
+    }
+    .top-left-section{
+        width: 100%;
+    }
+    .Course{
+        font-size: xx-large;
+    }
+    .top-right-section{
+        margin-left: 0px;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .IMAGE{
+        width: 80%;
+        margin-right: 50px;
+    }
+    .down-section{
+        flex: none;
+        margin: 0px;
+        display: grid;
+        grid-template-columns:1fr; 
+        gap: 30px;
+    }
+    .Teacher{
+        margin-left: 40px;
+        margin: auto;
+    }
+    h5{
+        width: 300px;
+        font-size: large;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+    .Certificate{
+        margin: auto;
+    }
+    .Learning{
+        margin: auto;
+    }
+    .middle-section{
+        display: grid;
+        grid-template-rows: 1fr;
+        background-color: rgba(84, 91, 232, 1);
+        height: 700px;
+    }
+    .middle-right{
+        padding-left: 20px;
+    }
+    .bottom{
+        width: 100%;
+        height: 100%;
+    }
+    .bottom-top{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .bottom-down{
+        grid-template-columns: 1fr;
+        display: grid;
+    }
+    .Frink{
+        grid-template-columns: 1fr;
+        display: grid;
+        flex: none;
+    }
+    .Frisk{
+        grid-template-columns: 1fr;
+        display: grid;
+        flex: none;
+    }
+    .testimonial{
+        grid-template-columns: 1fr;
+        display: grid;
+        margin-top:500px;
+    }
+    .IMAGES{
+        width: 90%;
+    }
+    .first-photo-section{
+        width: 260px;
+        margin-right: 0px;
+    }
+    .second-photo-section{
+        width: 260px;
+        margin-right: 0px;
+    }
+    .third-section{
+        margin-right: 0px;
+    }
+    .bottom{
+     position: relative;
+     right: 120px;
+    }  
+    .bottom-down{
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .bottom-top{
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+    .fourth-section{
+        width: 260px;
+        margin-right: 0px;
+
+    }
+    .testimonial{
+        width: 100px;
+    }
+    .D-section{    
+        margin-top: 790px;
+        width: 100%;
+        height: 100%;
+    }    
+    h3{
+      position: relative;
+      right: 500px;
+    }
+    .Frisk{
+        position: relative;
+        right: 150px;
+        width: 300px;
+        bottom: 450px;
+        margin-left: 70px;
+        border-radius: 10px;
+    }
+    .Frink{
+        position: relative;
+        right: 150px;
+        width: 300px;
+        bottom: 450px;
+        margin-left: 70px;
+        border-radius: 10px;
+    }
+    .last-section{
+        position: relative;
+        top: 100px;
+        padding-left: 30px;
+        flex: none;
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 50px; 
+    }
+    .last-right{
+        padding-left: 0px;
+        gap: 2px;
+        line-height: 20px;
+        font-size: 10px;
+
+    }
+    .sem{
+        font-size: 11px;
+    }
+    .Vector{
+        display: none;
+    }
+    .last-right{
+        gap: 23px;
+    }
+    .xyz{
+        padding-left: 35px;
+    }
+   
+}
+
+
+
